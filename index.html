@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample_address:port#/styles.css">
+</head>
+<body>
+    <div id="joinDiv">
+        <label for="nameInput">Name</label>
+        <input id="nameInput" name="nameInput" autocomplete="off" /><button onclick="enterName();">submit</button>
+    </div>
+    <div id="nameList">
+        <h4>players:</h4><br>
+    </div>
+    <button id="startButton" onclick="startGame();">start game</button>
+    <button id="cancelButton" onclick="cancel();">cancel</button>
+    <button id="confirmButton" onclick="confirm();">confirm</button>
+
+    <canvas id="canvas"></canvas>
+    <h3 id="roundInfo">bruh what</h3>
+    <div id="leaderboard"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://sample_address:port#/Station.js"></script>
+    <script src="http://sample_address:port#/script.js"></script>
+</body>
+</html>
