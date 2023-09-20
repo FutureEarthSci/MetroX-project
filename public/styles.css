@@ -1,0 +1,19 @@
+#canvas {
+    position:fixed;
+    top:25%;
+    left:50%;
+}
+
+#roundInfo {
+    position:fixed;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 430px;
+}
+
+#leaderboard {
+    position:fixed;
+    top:60px;
+    left:8px;
+}
